@@ -84,21 +84,17 @@
       }
     });
   
-yesButton.addEventListener('click', () => {
-  imageDisplay.src = './images/image7.gif';
-  valentineQuestion.textContent =
-    "Yayyy!! I love you, baby:3 at dahil dyan may surprise ka!";
-  responseButtons.style.display = 'none';
-
-  // Show the surprise link
-  surpriseLink.classList.remove('hidden');
-
-  confetti();
-});
+    yesButton.addEventListener('click', () => {
+      imageDisplay.src = './images/image7.gif'; // Change to image7.gif
+      valentineQuestion.textContent = "Yayyy!! I love you, baby:3 at dahil dyan ikaw may surprise ka!"; // Change the question text
+      responseButtons.style.display = 'none'; // Hide both buttons
+      confetti(); // Trigger confetti animation
+    });
 
   </script>  
 </body>
 
 </html>
+
 
 
